@@ -1,0 +1,34 @@
+     ---Create---
+
+$mkdir  to make a new directory , it will create a new folder{
+
+$mkdir nameOfTheFolder 
+
+}
+
+
+$touch  will make a new file{
+
+$touch NameOfTheFile
+
+}
+
+
+	---Delete---
+
+$rm for delete files{
+
+$rm nameOfTheFile
+
+}
+
+$rm for delete folder{
+
+To remove an empty directory, use either rmdir or rm -d followed by the directory name:
+$rm -d dirname
+
+
+To remove non-empty directories and all the files within them, use the rm command with the-r
+$rm -r dirname
+
+}

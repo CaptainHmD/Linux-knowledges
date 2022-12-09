@@ -1,0 +1,7 @@
+https://code.visualstudio.com/download
+first download vscode .deb 
+
+then type this command in the terminal; take care that you must be in the directory first.
+
+
+sudo dpkg -i fileName.deb

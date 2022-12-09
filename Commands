@@ -1,0 +1,51 @@
+$shutdown now (for shutdowing the system)
+
+
+$sudo to use commands as a subUser
+$ls  for  displaying the files in the directory 
+
+$cd for changing the directory {
+
+$cd then tab to see where you can go
+
+}
+
+
+
+
+$echo for displaying text{
+
+$echo hi im hamad
+}
+
+
+
+compile Javascript file {
+after downloading nodejs in terminal by apt command
+
+$ node filename.js  -Wall      Wall is optional to enable warning massage if there is an error
+
+}
+
+grep{
+
+$env | grep anyname
+
+
+$env | grep USER
+
+it will show any lines containing USER
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

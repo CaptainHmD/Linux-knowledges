@@ -1,0 +1,19 @@
+vim for coding in terminal{
+$vim filename.js   for Javascript
+$vim filename.py   for python
+$vim filename.c    for C
+........
+
+you have to enter Insert mode first By pressing  ---> i   in keyboard  or o but it will create a new line
+then Exit insert mode for Another commands --->  ESC
+
+:W for save the file
+:q to exit the editor
+:wq for save and exit at the same time
+
+:syntax on
+:set number    to add line number you have to do it everytime when you join vim mode
+
+ i or o again to join insert mode
+
+}
