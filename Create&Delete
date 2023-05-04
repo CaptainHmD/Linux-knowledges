@@ -25,7 +25,7 @@ $rm nameOfTheFile
 $rm for delete folder{
 
 To remove an empty directory, use either rmdir or rm -d followed by the directory name:
-$rm -d dirname
+$rm -rf dirname
 
 
 To remove non-empty directories and all the files within them, use the rm command with the-r

@@ -1,0 +1,7 @@
+nohup
+
+nohup command &
+
+example 
+
+nohup node index.js &

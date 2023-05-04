@@ -1,0 +1,4 @@
+https://www.digitalocean.com/community/tutorials/how-to-create-an-ssh-shortcut#method-2-create-aliases-for-your-shell
+
+
+use Method 2 and you must reboot to make it work

@@ -1,0 +1,103 @@
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-22-04
+
+Step 1 — Installing Apache and Updating the Firewall
+
+sudo apt update
+
+Then, install Apache with:
+
+sudo apt install apache2
+
+Once the installation is finished, you’ll need to adjust your firewall settings to allow HTTP traffic.
+by opening the port to accept the requests
+
+check Uncomplicated Firewall (UFW) for extra info
+
+
+sudo ufw app list
+
+the following command will enable the port for apache:
+sudo ufw allow Apache
+
+Verify the change with:
+sudo ufw status
+
+--------------------------------------------------------------------------------------------------
+
+Step 2 — Installing MySQL
+
+sudo apt install mysql-server
+
+there some importent steps for security script, you will find it in the link above
+mysql -u root -p
+
+
+Step 3 — Installing PHP
+
+you’ll need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. You’ll also need libapache2-mod-php to enable Apache to handle PHP files. Core PHP packages will automatically be installed as dependencies.
+also php for sure
+
+
+sudo apt install php libapache2-mod-php php-mysql
+
+Once the installation is finished, run the following command to confirm your PHP version:
+php -v
+
+Step 4 — Creating a Virtual Host for your Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+edit only on sites-avaliable 
+
+write in ports.conf then enable it by sudo ufw allow port-number
+
+
+
+
+you have to enable the virtual host by sudo a2ensite your_domain
+
+this will close the virtual host
+sudo a2dissite your_domain
+
+To make sure your configuration file doesn’t contain syntax errors, run the following command:
+sudo apache2ctl configtest
+
+reload Apache to save the changes:
+sudo systemctl reload apache2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
