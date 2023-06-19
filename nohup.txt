@@ -1,0 +1,23 @@
+https://linuxhint.com/how_to_use_nohup_linux/
+
+
+start nohup process
+
+nohup command &
+
+display process 
+ps -ef | grep ***** 
+
+example 
+ps -ef | grep node
+
+
+
+
+
+
+Terminate process
+kill PID
+
+PID = process id
+
